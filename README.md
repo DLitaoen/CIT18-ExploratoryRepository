@@ -1,2 +1,2 @@
 # CIT18-ExploratoryRepository
-A repository dedicated to exploring larval for my CIT18 class.
+A repository dedicated to exploring laravel for my CIT18 class.
