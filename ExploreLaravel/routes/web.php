@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/hello-laravel', function () {
     return "Hello, Laravel!";
 });
+
+Route::get('/greet-view', function () {
+    return view(view: 'greet');
+});
