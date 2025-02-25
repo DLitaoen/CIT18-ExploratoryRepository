@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GreetController;
 use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,6 +16,6 @@ Route::get('/greet-view', function () {
     return view(view: 'greet');
 });
 
-// Route::get('/tasks', [TaskController::class, 'index']) -> name('tasks.index');
+Route::get('/greet', [GreetController::class, 'greet']);
 
 Route::resource('tasks', TaskController::class);
