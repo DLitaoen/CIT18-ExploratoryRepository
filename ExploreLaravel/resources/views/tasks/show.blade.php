@@ -24,17 +24,8 @@
         * {
             font-family: 'Poppins', sans-serif;
         }
-
-        /* h1, h2, h3, h4, h5, h6 {
-            font-weight: 700;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 3px 10px;
-        } */
     </style>
+
     <title>View Task</title>
 </head>
 <body>

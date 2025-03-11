@@ -24,16 +24,6 @@
         * {
             font-family: 'Poppins', sans-serif;
         }
-
-        /* h1, h2, h3, h4, h5, h6 {
-            font-weight: 700;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 3px 10px;
-        } */
     </style>
 
     <title>Create Task</title>
@@ -51,9 +41,11 @@
             <label for="description" class="block text-md font-bold mb-2">Description:</label>
             <textarea name="description" id="description" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"></textarea>
         </div>
-        <button type="submit" class="inline-block bg-blue-400 hover:bg-blue-500 transition text-white font-semibold py-1 px-2 rounded">Create</button>
+        <button type="submit" class="inline-block bg-blue-400 hover:bg-blue-500 transition text-white font-semibold py-1 px-2 rounded">
+            <i class="fas fa-plus mr-1"></i>Create
+        </button>
         <a href="{{ route('tasks.index') }}" class="inline-block bg-red-400 hover:bg-red-500 transition text-white font-semibold py-1 px-2 rounded ml-2">
-            Cancel
+            <i class="fas fa-times mr-1"></i>Cancel
         </a>
     </form>
 </body>

@@ -24,16 +24,6 @@
         * {
             font-family: 'Poppins', sans-serif;
         }
-
-        /* h1, h2, h3, h4, h5, h6 {
-            font-weight: 700;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 3px 10px;
-        } */
     </style>
 
     <title>Task CRUD</title>
@@ -96,12 +86,8 @@
                 @endif
             </tbody>
         </table>
-
-        {{-- @if (session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-        @endif --}}
+        
+        {{-- Display Success Message --}}
         @if (session('success'))
             <div class="mt-12 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
                 <strong class="font-bold">Success!</strong>
