@@ -16,8 +16,6 @@
 
     {{-- Tailwind CSS --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="stylesheet" href="{{ asset('resources/css/app.css') }}">
-    <script src="{{ asset('resources/js/app.js') }}" defer></script>
 
     {{-- Vanilla CSS --}}
     <style>
@@ -86,7 +84,7 @@
                 @endif
             </tbody>
         </table>
-        
+
         {{-- Display Success Message --}}
         @if (session('success'))
             <div class="mt-12 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
