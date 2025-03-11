@@ -4,13 +4,13 @@
 @tailwind components;
 @tailwind utilities; */
 
-/* @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php'; */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
-/* @theme {
+@theme {
   --font-sans:
     Figtree, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-} */
+}
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
@@ -26,6 +26,6 @@
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+    border-color: var(--color-black-200, currentColor);
   }
 } */
